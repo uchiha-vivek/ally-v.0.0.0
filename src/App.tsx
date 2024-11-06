@@ -1,7 +1,7 @@
-// App.tsx
+
 import React, { useState } from 'react';
-import './dark-theme.css'; // Import the dark theme CSS
-import Hero from './components/Hero'; // Assuming Hero component is separate
+import './dark-theme.css'; 
+import Hero from './components/Hero'; 
 import InputSection from './components/Input';
 
 const App: React.FC = () => {
@@ -34,7 +34,7 @@ const App: React.FC = () => {
   return (
     <div className="flex flex-col  bg-surface text-primary">
       
-      {/* Hero Section */}
+       
       <div className="flex-1 flex flex-col items-center justify-center p-4 sm:p-6 bg-surface-a0">
        
         <Hero />
@@ -44,7 +44,7 @@ const App: React.FC = () => {
           isListening={isListening}
           handleVoiceInput={handleVoiceInput}
         />
-        {/* Input Section */}
+        
          
       </div>
     </div>
